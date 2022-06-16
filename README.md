@@ -9,6 +9,8 @@
 - <https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.9.3.tar.gz>
 - <https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.11.1.tar.gz>
 - <https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.13.5.tar.gz>
+- <https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.13.8.tar.gz>
+- <https://github.com/kubernetes/kubernetes/archive/refs/tags/v1.13.10.tar.gz>
 
 ## tools
 - kubectl-whoami: <https://github.com/rajatjindal/kubectl-whoami/releases/download/v0.0.44/kubectl-whoami_v0.0.44_linux_amd64.tar.gz>
@@ -25,6 +27,7 @@
 - CVE-2019-1002101: `docker pull noirfate/vul-k8s-cve-2019-1002101:1.0`
 - CVE-2019-11246: `docker pull noirfate/vul-k8s-cve-2019-11246:1.0`
 - CVE-2019-11249: `docker pull noirfate/vul-k8s-cve-2019-11249:1.0`
+- CVE-2019-11251: `docker pull noirfate/vul-k8s-cve-2019-11251:1.0`
 - CVE-2021-25741: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 
 ## run
