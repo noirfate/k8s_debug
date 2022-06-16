@@ -18,12 +18,13 @@
 > ssh: `ssh -p12222 root@127.0.0.1`<br>
 > exploit: `cd exploit;./run`<br>
 
-- base: `docker pull noirfate/k8svul-base`
+- base: `docker pull noirfate/k8svul-base:1.0`
 - CVE-2017-1002101: `docker pull noirfate/vul-k8s-cve-2017-1002101:1.0`
 - CVE-2018-1002100: `docker pull noirfate/vul-k8s-cve-2018-1002100:1.0`
 - CVE-2018-1002105: `docker pull noirfate/vul-k8s-cve-2018-1002105:1.0`
 - CVE-2019-1002101: `docker pull noirfate/vul-k8s-cve-2019-1002101:1.0`
 - CVE-2019-11246: `docker pull noirfate/vul-k8s-cve-2019-11246:1.0`
+- CVE-2019-11249: `docker pull noirfate/vul-k8s-cve-2019-11249:1.0`
 - CVE-2021-25741: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 
 ## run
