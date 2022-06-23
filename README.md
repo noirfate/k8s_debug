@@ -28,6 +28,7 @@
 - CVE-2019-11246: `docker pull noirfate/vul-k8s-cve-2019-11246:1.0`
 - CVE-2019-11249: `docker pull noirfate/vul-k8s-cve-2019-11249:1.0`
 - CVE-2019-11251: `docker pull noirfate/vul-k8s-cve-2019-11251:1.0`
+- CVE-2019-11253: `docker pull noirfate/vul-k8s-cve-2019-11253:1.0`
 - CVE-2021-25741: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 
 ## run
