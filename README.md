@@ -21,15 +21,16 @@
 > exploit: `cd exploit;./run`<br>
 
 - base: `docker pull noirfate/k8svul-base:1.0`
-- CVE-2017-1002101: `docker pull noirfate/vul-k8s-cve-2017-1002101:1.0`
-- CVE-2018-1002100: `docker pull noirfate/vul-k8s-cve-2018-1002100:1.0`
-- CVE-2018-1002105: `docker pull noirfate/vul-k8s-cve-2018-1002105:1.0`
-- CVE-2019-1002101: `docker pull noirfate/vul-k8s-cve-2019-1002101:1.0`
-- CVE-2019-11246: `docker pull noirfate/vul-k8s-cve-2019-11246:1.0`
-- CVE-2019-11249: `docker pull noirfate/vul-k8s-cve-2019-11249:1.0`
-- CVE-2019-11251: `docker pull noirfate/vul-k8s-cve-2019-11251:1.0`
-- CVE-2019-11253: `docker pull noirfate/vul-k8s-cve-2019-11253:1.0`
-- CVE-2021-25741: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
+- CVE-2017-1002101 hostPath symbol link path escape: `docker pull noirfate/vul-k8s-cve-2017-1002101:1.0`
+- CVE-2018-1002100 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2018-1002100:1.0`
+- CVE-2018-1002105 kube-apiserver do not properly close kubelet proxy connection: `docker pull noirfate/vul-k8s-cve-2018-1002105:1.0`
+- CVE-2019-1002101 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2019-1002101:1.0`
+- CVE-2019-11246 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2019-11246:1.0`
+- CVE-2019-11249 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2019-11249:1.0`
+- CVE-2019-11251 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2019-11251:1.0`
+- CVE-2019-11253 kube-apiserver yaml parser dos: `docker pull noirfate/vul-k8s-cve-2019-11253:1.0`
+- CVE-2020-8559 kube-apiserver follow kubelet redirect request: `docker pull noirfate/vul-k8s-cve-2020-8559:1.0`
+- CVE-2021-25741 kubelet subpath TOCTOU: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 
 ## run
 ```
