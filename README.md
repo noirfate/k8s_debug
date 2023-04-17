@@ -1,5 +1,8 @@
 # k8s_debug
 
+## k8s cves
+- <https://kubernetes.io/docs/reference/issues-security/official-cve-feed/>
+
 ## go download
 - <https://dl.google.com/go/go1.9.1.linux-amd64.tar.gz>
 - <https://dl.google.com/go/go1.11.1.linux-amd64.tar.gz>
@@ -21,7 +24,7 @@
 > ssh: `ssh -p12222 root@127.0.0.1`<br>
 > exploit: `cd exploit;./run`<br>
 
-- base: `docker pull noirfate/k8svul-base:1.0`
+- base: `docker pull noirfate/k8svul-base:1.2`
 - CVE-2017-1002101 hostPath symbol link path escape: `docker pull noirfate/vul-k8s-cve-2017-1002101:1.0`
 - CVE-2018-1002100 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2018-1002100:1.0`
 - CVE-2018-1002105 kube-apiserver do not properly close kubelet proxy connection: `docker pull noirfate/vul-k8s-cve-2018-1002105:1.0`
@@ -33,6 +36,7 @@
 - CVE-2019-11253 kube-apiserver yaml parser dos: `docker pull noirfate/vul-k8s-cve-2019-11253:1.0`
 - CVE-2020-8555 kube-controller-manager ssrf: `docker pull noirfate/vul-k8s-cve-2020-8555:1.0`
 - CVE-2020-8559 kube-apiserver follow kubelet redirect request: `docker pull noirfate/vul-k8s-cve-2020-8559:1.0`
+- CVE-2021-25735 Kubernetes validating admission webhook bypass: `docker pull noirfate/vul-k8s-cve-2021-25735:1.0`
 - CVE-2021-25741 kubelet subpath TOCTOU: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 - CVE-2021-25742 ingress-nginx snippet command execution: `docker pull noirfate/vul-k8s-cve-2021-25742:1.0`
 
