@@ -35,6 +35,7 @@
 - CVE-2019-11251 kubectl cp path escape: `docker pull noirfate/vul-k8s-cve-2019-11251:1.0`
 - CVE-2019-11253 kube-apiserver yaml parser dos: `docker pull noirfate/vul-k8s-cve-2019-11253:1.0`
 - CVE-2020-8555 kube-controller-manager ssrf: `docker pull noirfate/vul-k8s-cve-2020-8555:1.0`
+- CVE-2020-8558 kube-proxy route_localnet: `docker pull noirfate/vul-k8s-cve-2020-8558:1.0`
 - CVE-2020-8559 kube-apiserver follow kubelet redirect request: `docker pull noirfate/vul-k8s-cve-2020-8559:1.0`
 - CVE-2021-25735 Kubernetes validating admission webhook bypass: `docker pull noirfate/vul-k8s-cve-2021-25735:1.0`
 - CVE-2021-25741 kubelet subpath TOCTOU: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
