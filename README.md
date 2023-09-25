@@ -40,6 +40,7 @@
 - CVE-2021-25735 Kubernetes validating admission webhook bypass: `docker pull noirfate/vul-k8s-cve-2021-25735:1.0`
 - CVE-2021-25741 kubelet subpath TOCTOU: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 - CVE-2021-25742 ingress-nginx snippet command execution: `docker pull noirfate/vul-k8s-cve-2021-25742:1.0`
+- CVE-2023-2431 Bypass of seccomp profile enforcement `kind create cluster --name cve-2023-2431 --image=kindest/node:v1.23.13 --config=kind-config.yaml`
 
 ## run
 ```
