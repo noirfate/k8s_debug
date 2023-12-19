@@ -41,7 +41,9 @@
 - CVE-2021-25741 kubelet subpath TOCTOU: `docker pull noirfate/vul-k8s-cve-2021-25741:1.0`
 - CVE-2021-25742 ingress-nginx snippet command execution: `docker pull noirfate/vul-k8s-cve-2021-25742:1.0`
 - CVE-2022-3162 Unauthorized read of Custom Resources `kind create cluster --name cve-2022-3162 --image=kindest/node:v1.23.13`
+- CVE-2022-3172 Aggregated API server can cause clients to be redirected (SSRF) `kind create cluster -n cve-2022-3172 --image kindest/node:v1.21.10`
 - CVE-2023-2431 Bypass of seccomp profile enforcement `kind create cluster --name cve-2023-2431 --image=kindest/node:v1.23.13 --config=kind-config.yaml`
+- CVE-2023-2728 Bypassing enforce mountable secrets policy imposed by the ServiceAccount admission plugin `kind create cluster -n cve-2023-2728 --image kindest/node:v1.27.1`
 
 ## run
 ```
