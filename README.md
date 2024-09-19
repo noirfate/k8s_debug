@@ -44,6 +44,7 @@
 - CVE-2022-3172 Aggregated API server can cause clients to be redirected (SSRF) `kind create cluster -n cve-2022-3172 --image kindest/node:v1.21.10`
 - CVE-2023-2431 Bypass of seccomp profile enforcement `kind create cluster --name cve-2023-2431 --image=kindest/node:v1.23.13 --config=kind-config.yaml`
 - CVE-2023-2728 Bypassing enforce mountable secrets policy imposed by the ServiceAccount admission plugin `kind create cluster -n cve-2023-2728 --image kindest/node:v1.27.1`
+- CVE-2024-3177 Bypassing enforce mountable secrets policy imposed by the ServiceAccount admission plugin `kind create cluster -n cve-2023-2728 --image kindest/node:v1.27.1`
 
 ## run
 ```
